@@ -1,0 +1,12 @@
+/node_modules
+/develop
+/userdata
+package-lock.json
+/.vscode
+konpecja.txt
+gamelist.txt
+.env
+/logs
+/docker
+/generated
+test.js

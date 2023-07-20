@@ -1,0 +1,3 @@
+User - nic
+Moderator - mozliwosc akceptacji routow
+Admin - Pełen dostęp do routow uzytkownikow/ mozliwosc akceptacji routow 

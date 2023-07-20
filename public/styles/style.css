@@ -1,0 +1,29 @@
+
+body {
+    background-color: gray;
+}
+#image-container {
+position: relative;
+display: inline-block;
+}
+
+.pin {
+position: absolute;
+width: 30px;
+height: 30px;
+background-size: cover;
+cursor: pointer;
+}
+
+.pin-description {
+position: absolute;
+top: 200px;
+right: -200px;
+width: 200px;
+height: auto;
+background-color: white;
+border: 1px solid black;
+padding: 10px;
+display: none;
+}
+

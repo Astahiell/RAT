@@ -1,0 +1,169 @@
+{
+  "pins": [
+    {
+      "id": "AA1111",
+      "name": "Your Pin",
+      "groups": "Your First Group",
+      "description": "Your Amazing Pin",
+      "image": "https://imgur.com/testowy",
+      "connected": [
+        {
+          "id": "TI2916",
+          "name": "Unhealthy Cakes"
+        }
+      ],
+      "lat": "0",
+      "lng": "0",
+      "icon": "https://imgur.com/testowy",
+      "group": "Your First Group"
+    },
+    {
+      "id": "TI2916",
+      "name": "Unhealthy Cakes",
+      "groups": "Your First Group",
+      "description": "Pin Description",
+      "image": "https://imgur.com/testowy",
+      "connected": [
+        {
+          "id": "TI2916",
+          "name": "Unhealthy Cakes"
+        }
+      ],
+      "lat": 408,
+      "lng": 674.6666259765625,
+      "icon": "https://imgur.com/testowy",
+      "group": "Your First Group"
+    },
+    {
+      "id": "BI0010",
+      "name": "Smelly Grass",
+      "groups": "Your First Group",
+      "description": "Pin Description",
+      "image": "https://cdn.discordapp.com/attachments/929114840088330371/1135611016433115266/image.png",
+      "connected": [
+        {
+          "id": "BI0010",
+          "name": "Smelly Grass"
+        }
+      ],
+      "lat": 526,
+      "lng": 543.6666564941406,
+      "icon": "https://cdn.discordapp.com/attachments/929114840088330371/1135611016433115266/image.png"
+    },
+    {
+      "id": "TO4041",
+      "name": "Obscene Throat",
+      "groups": "Your First Group",
+      "description": "Pin Description",
+      "image": "https://cdn.discordapp.com/attachments/929114840088330371/1135611016433115266/image.png",
+      "connected": [
+        {
+          "id": "TO4041",
+          "name": "Obscene Throat"
+        }
+      ],
+      "lat": 448,
+      "lng": 331.33331298828125,
+      "icon": "https://cdn.discordapp.com/attachments/929114840088330371/1135611016433115266/image.png"
+    },
+    {
+      "id": "LQ2256",
+      "name": "Super Stone",
+      "groups": "Your First Group",
+      "description": "Pin Description",
+      "image": "https://cdn.discordapp.com/attachments/929114840088330371/1135611016433115266/image.png",
+      "connected": [
+        {
+          "id": "LQ2256",
+          "name": "Super Stone"
+        }
+      ],
+      "lat": 64,
+      "lng": 662.6666259765625,
+      "icon": null,
+      "group": "Your First Group"
+    },
+    {
+      "id": "QU3235",
+      "name": "Tiny Dogs",
+      "groups": "Your First Group",
+      "description": "Pin Description",
+      "image": "https://cdn.discordapp.com/attachments/929114840088330371/1135611016433115266/image.png",
+      "connected": [
+        {
+          "id": "QU3235",
+          "name": "Tiny Dogs"
+        }
+      ],
+      "lat": 419.9993208594278,
+      "lng": 607.3331432031382,
+      "icon": "https://cdn.discordapp.com/attachments/929114840088330371/1135611016433115266/image.png"
+    },
+    {
+      "id": "QY3217",
+      "name": "Periodic Reaction",
+      "groups": "Your First Group",
+      "description": "Pin Description",
+      "image": "https://cdn.discordapp.com/attachments/929114840088330371/1135611016433115266/image.png",
+      "connected": [
+        {
+          "id": "TO4041",
+          "name": "Obscene Throat"
+        }
+      ],
+      "lat": 200,
+      "lng": 959.3333129882812,
+      "icon": "https://cdn.discordapp.com/attachments/929114840088330371/1135611016433115266/image.png",
+      "group": "Your First Group"
+    },
+    {
+      "id": "SN9534",
+      "name": "Bright Structure",
+      "groups": "Your First Group",
+      "description": "Pin Description",
+      "image": "https://cdn.discordapp.com/attachments/929114840088330371/1135611016433115266/image.png",
+      "connected": [
+        {
+          "id": "QY3217",
+          "name": "Periodic Reaction"
+        }
+      ],
+      "lat": 184,
+      "lng": 334.79998779296875,
+      "icon": null,
+      "group": "Your First Group"
+    },
+    {
+      "id": "TR2075",
+      "name": "Damaging Hand",
+      "groups": "Your First Group",
+      "description": "Pin Description",
+      "image": "https://cdn.discordapp.com/attachments/929114840088330371/1135611016433115266/image.png",
+      "connected": [
+        {
+          "id": "SN9534",
+          "name": "Bright Structure"
+        }
+      ],
+      "lat": 720,
+      "lng": 206.79998779296875,
+      "icon": "https://cdn.discordapp.com/attachments/929114840088330371/1135611016433115266/image.png"
+    },
+    {
+      "id": "ZY2012",
+      "name": "Agonizing Spy",
+      "groups": "Your First Group",
+      "description": "Pin Description",
+      "image": "https://cdn.discordapp.com/attachments/929114840088330371/1135611016433115266/image.png",
+      "connected": [
+        {
+          "id": "TR2075",
+          "name": "Damaging Hand"
+        }
+      ],
+      "lat": 568,
+      "lng": 61.5999755859375,
+      "icon": null
+    }
+  ]
+}

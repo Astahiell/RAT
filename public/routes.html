@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Routes</title>
+</head>
+<style>
+    body {
+        background-color: gray;
+    }
+    .route {
+        height:100px;
+        width:100px;
+        background-color:black;
+        margin-top:20px;
+
+    }
+    .route-name {
+        color:white;
+    }
+    .route {
+    margin-bottom:100px;
+    }
+</style>
+<body onload="getUserRoutes()">
+    <input type="text" id="new-space-name" placeholder="Name">
+    <input type="text" id="new-space-image" placeholder="Link to Map">
+    <button id="add-space-button">Add New Space</button>
+
+    <div id="routes-list">
+    </div>
+</body>
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+crossorigin="anonymous"
+referrerpolicy="no-referrer">
+</script>
+<script type="text/javascript" src="/js/function-routes.js"></script> 
+</html>

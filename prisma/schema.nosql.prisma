@@ -1,0 +1,50 @@
+generator client {
+    provider = "prisma-client-js"
+    output   = "../generated/client-nosql"
+}
+
+datasource db {
+    provider = "mongodb"
+    url      = env("DATABASE_URL_NOSQL")
+}
+
+model Route {
+    id          String  @id @default(auto()) @map("_id") @db.ObjectId
+    uuid        String  @unique
+    name        String
+    description String?
+    category    String?
+    condition   String
+    map         String
+    startingPin String
+    owner       String
+    sharedWith  String?
+    pins        Pin[]
+    groups      Group[]
+}
+
+model Pin {
+    id          String  @id @default(auto()) @map("_id") @db.ObjectId
+    routeId     String  @db.ObjectId
+    pinId       String
+    name        String
+    groups      String
+    lat         Float
+    lng         Float
+    description String?
+    image       String?
+    icon        String?
+    route       Route   @relation(fields: [routeId], references: [id])
+}
+
+
+
+model Group {
+    id          String  @id @default(auto()) @map("_id") @db.ObjectId
+    routeId     String  @db.ObjectId
+    name        String
+    color       String 
+    route       Route   @relation(fields: [routeId], references: [id])
+}
+
+// rewrite old system file to mongodb

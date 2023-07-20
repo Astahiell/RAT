@@ -1,0 +1,18 @@
+body {
+    background-color: #ddd;
+}
+#map { 
+    height: 700px; 
+    width: 600px;
+}
+#pin-description-div {
+    height:300px;
+    width:300px;
+    background-color: red;
+    position:absolute;
+    top:100px;
+    left:700px;
+}
+.pin-description {
+    display: none;
+}
